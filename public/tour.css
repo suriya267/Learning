@@ -1,0 +1,89 @@
+.main {
+    padding: 0px 18rem;
+    background: #F7F8FC;
+}
+
+.main-content-container {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tour-heading-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tour-heading {
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #222222;
+}
+
+.tour-highlight {
+    color: #FA7436;
+}
+
+.tour-content {
+    width: 60%;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    color: #666666;
+}
+
+.bg-flight{
+    position: absolute;
+    right: 0;
+    height: 6rem;
+}
+
+.flight-img{
+    height: 100%;
+}
+
+.cards {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    width: 25%;
+    padding: 25px;
+    background: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+
+.icon {
+    height: 2.2rem;
+}
+
+.icon-img {
+    height: 100%;
+}
+
+.card-name {
+    margin-top: 2.5rem;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.card-desc {
+    color: #666666;
+    font-family: "Poppins", serif;
+    font-size: 13px;
+}
