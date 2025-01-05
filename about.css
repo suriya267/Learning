@@ -1,0 +1,81 @@
+.main {
+    padding   : 0px 18rem;
+    background: #F7F8FC;
+}
+
+.content-container {
+    display    : flex;
+    align-items: center;
+    height: 76%;
+}
+
+.left-c {
+    width: 45%;
+}
+
+.content-heading {
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-size  : 40px;
+    color      : #222222;
+}
+
+.content-heading-highlight {
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-size  : 35px;
+    color      : #FA7436;
+}
+
+.content {
+    margin-top: 1.5rem;
+    font-size: 14px;
+    font-family: "Poppins", serif;
+    color: #666666;
+}
+
+.arrow-btns{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left-a{
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    border: 1.7px solid #999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.right-a{
+    margin-left: 17px;
+    height: 29.4px;
+    width: 29.4px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FA7436;
+    cursor: pointer;
+
+}
+
+.a-icon{
+    height: 13px;
+}
+
+.right-c{
+    width: 55%;
+    position: relative;
+}
+
+.bg-flight{
+    position: absolute;
+    right: 0;
+    top: -10rem;
+    height: 9rem;
+}
