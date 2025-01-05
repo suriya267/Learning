@@ -80,10 +80,10 @@
 }
 
 .current-c {
-    width: 75%;
-    padding: 35px;
+    width: 67%;
+    padding: 27px;
     top: 0;
-    left: 0;
+    left: 3rem;
     position: relative;
     background: white;
     border-radius: 5px;
@@ -123,9 +123,9 @@ image {
 }
 
 .next-c {
-    width: 75%;
-    margin-left: 3rem;
-    padding: 35px;
+    width: 67%;
+    margin-left: 6rem;
+    padding: 27px 27px 17px 27px;
     border-radius: 5px;
     border: 2.5px solid #e2e3e6;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;

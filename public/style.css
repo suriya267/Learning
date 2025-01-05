@@ -28,7 +28,7 @@
 
 }
 
-.first-navigate{
+.first-navigate {
     cursor: pointer;
     text-decoration: none;
     color: #222222 !important;
@@ -68,4 +68,85 @@
     padding: 10px 30px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.footer-main {
+    margin-top: 4rem;
+    display: flex;
+}
+
+.company-left {
+    width: 40%;
+}
+
+.company-about {
+    width: 70%;
+    color: #666666;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    margin-top: 15px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.fb {
+    height: 2.5rem;
+    width: 2.5rem;
+    box-shadow: rgba(100, 100, 111, 0.7) 0px 7px 29px 0px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insta {
+    height: 2.5rem;
+    width: 2.5rem;
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FA7436;
+    margin: 0px 15px;
+}
+
+.company-right {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company {
+    font-size: 16px;
+    color: #222222;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+}
+
+.company-details {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #666666;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}
+
+.horizontal-line {
+    margin-top: 2rem;
+}
+
+.copyright-terms {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666666;
+    font-family: "Poppins", serif;
+    font-weight: 300;   
 }

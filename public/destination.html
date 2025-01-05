@@ -1,15 +1,305 @@
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Travel Agency</title>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" type="text/css" href="destination.css">
-    </head>
-    <body class="main">
-        <header>
-            <div class="nav-bar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="destination.css">
+</head>
+
+<body class="main">
+    <header>
+        <div class="nav-bar">
+            <div class="heading-container">
+                <div class="heading">
+                    Trabook
+                </div>
+                <div class="logo-container">
+                    <img src="./images/site_logo.svg" alt="Image Broaked">
+                </div>
+            </div>
+            <nav class="navigates">
+                <a href="./index.html" class="first-navigate">
+                    Home
+                </a>
+                <a href="./about.html" class="navigate">
+                    About
+                </a>
+                <a class="navigate">
+                    Destination
+                </a>
+                <a href="./tour.html" class="navigate">
+                    Tour
+                </a>
+                <a href="./blog.html" class="navigate">
+                    Blog
+                </a>
+            </nav>
+            <div class="signup-login-btn">
+                <div class="login-btn">
+                    Login
+                </div>
+                <div class="signup-btn-container">
+                    <button class="signup-btn">
+                        Sign up
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="head">
+            <div class="content-heading">
+                Exclusive
+                <span class="content-heading-highlight">deals & discounts</span>
+            </div>
+        </div>
+        <div class="description-c">
+            <div class="description">
+                Discover our fantastic early booking discounts & start planning your journey.
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-img-c">
+                    <img class="card-img" src="./images/madrid.png" alt="Error">
+                    <button class="book-btn">Book Now</button>
+                </div>
+                <div class="detail-c">
+                    <div class="city-c">
+                        <div class="city">
+                            Madrid
+                        </div>
+                        <div class="rating-c">
+                            <img class="star" src="./images/star.svg" alt="Error">
+                            <span class="rating">4.8</span>
+                        </div>
+                    </div>
+                    <div class="country-price">
+                        <div class="country-container">
+                            <div>
+                                <img src="./images/location-icon.svg" alt="Error">
+                            </div>
+                            <div class="country">Spain</div>
+                        </div>
+                        <div class="price-c">
+                            <div class="original-price">$950</div>
+                            <div class="discount-price">$850</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img-c">
+                    <img class="card-img" src="./images/firenze.png" alt="Error">
+                    <button class="book-btn">Book Now</button>
+                </div>
+                <div class="detail-c">
+                    <div class="city-c">
+                        <div class="city">
+                            Firenze
+                        </div>
+                        <div class="rating-c">
+                            <img class="star" src="./images/star.svg" alt="Error">
+                            <span class="rating">4.5</span>
+                        </div>
+                    </div>
+                    <div class="country-price">
+                        <div class="country-container">
+                            <div>
+                                <img src="./images/location-icon.svg" alt="Error">
+                            </div>
+                            <div class="country">Italy</div>
+                        </div>
+                        <div class="price-c">
+                            <div class="original-price">$850</div>
+                            <div class="discount-price">$50</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img-c">
+                    <img class="card-img" src="./images/paris.png" alt="Error">
+                    <button class="book-btn">Book Now</button>
+                </div>
+                <div class="detail-c">
+                    <div class="city-c">
+                        <div class="city">
+                            Paris
+                        </div>
+                        <div class="rating-c">
+                            <img class="star" src="./images/star.svg" alt="Error">
+                            <span class="rating">4.4</span>
+                        </div>
+                    </div>
+                    <div class="country-price">
+                        <div class="country-container">
+                            <div>
+                                <img src="./images/location-icon.svg" alt="Error">
+                            </div>
+                            <div class="country">France</div>
+                        </div>
+                        <div class="price-c">
+                            <div class="original-price">$699</div>
+                            <div class="discount-price">$599</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img-c">
+                    <img class="card-img" src="./images/london.png" alt="Error">
+                    <button class="book-btn">Book Now</button>
+                </div>
+                <div class="detail-c">
+                    <div class="city-c">
+                        <div class="city">
+                            London
+                        </div>
+                        <div class="rating-c">
+                            <img class="star" src="./images/star.svg" alt="Error">
+                            <span class="rating">4.8</span>
+                        </div>
+                    </div>
+                    <div class="country-price">
+                        <div class="country-container">
+                            <div>
+                                <img src="./images/location-icon.svg" alt="Error">
+                            </div>
+                            <div class="country">UK</div>
+                        </div>
+                        <div class="price-c">
+                            <div class="original-price">$850</div>
+                            <div class="discount-price">$750</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrow-btn-c">
+            <div class="arrow-btns">
+                <div class="left-a">
+                    <img class="a-icon" src="./images/left-arrow.svg" alt="">
+                </div>
+                <div class="right-a">
+                    <img class="a-icon" src="./images/right-arrow.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="head-1">
+            <img class="tree-img" src="./images/tree-img.svg" alt="">
+            <div class="content-heading">
+                Best
+                <span class="content-heading-highlight">vacation plan</span>
+            </div>
+        </div>
+        <div class="description-c">
+            <div class="description-1">
+                Plan your perfect vacation with our travel agency. Choose among hundreds of all-inclusive offers!
+            </div>
+        </div>
+        <div class="arrow-btn-end">
+            <div class="arrow-btns">
+                <div class="left-a">
+                    <img class="a-icon" src="./images/left-arrow.svg" alt="">
+                </div>
+                <div class="right-a">
+                    <img class="a-icon" src="./images/right-arrow.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="visit-card-container">
+            <div class="visit-card">
+                <div>
+                    <img class="rome-italy-img" src="./images/rome-italy.png" alt="">
+                </div>
+                <div class="place-price">
+                    <div class="place">
+                        Rome, Italty
+                    </div>
+                    <div class="price">
+                        $5,42k
+                    </div>
+                </div>
+                <div class="days-rating">
+                    <div class="days-c">
+                        <div>
+                            <img src="./images/nav-icon.svg" alt="Error">
+                        </div>
+                        <div class="days-count">
+                            10 Days Trip
+                        </div>
+                    </div>
+                    <div>
+                        <img class="star-1" src="./images/star.svg" alt="Error">
+                        <span class="rating-1">4.8</span>
+                    </div>
+                </div>
+            </div>
+            <div class="visit-card">
+                <div>
+                    <img class="rome-italy-img" src="./images/london-uk.png" alt="">
+                </div>
+                <div class="place-price">
+                    <div class="place">
+                        London,UK
+                    </div>
+                    <div class="price">
+                        $2,42k
+                    </div>
+                </div>
+                <div class="days-rating">
+                    <div class="days-c">
+                        <div>
+                            <img src="./images/nav-icon.svg" alt="Error">
+                        </div>
+                        <div class="days-count">
+                            07 Days Trip
+                        </div>
+                    </div>
+                    <div>
+                        <img class="star-1" src="./images/star.svg" alt="Error">
+                        <span class="rating-1">4.7</span>
+                    </div>
+                </div>
+            </div>
+            <div class="visit-card">
+                <div>
+                    <img class="rome-italy-img" src="./images/osaka-japan.png" alt="">
+                </div>
+                <div class="place-price">
+                    <div class="place">
+                        Osaka,Japan
+                    </div>
+                    <div class="price">
+                        $5,42k
+                    </div>
+                </div>
+                <div class="days-rating">
+                    <div class="days-c">
+                        <div>
+                            <img src="./images/nav-icon.svg" alt="Error">
+                        </div>
+                        <div class="days-count">
+                            10 Days Trip
+                        </div>
+                    </div>
+                    <div>
+                        <img class="star-1" src="./images/star.svg" alt="Error">
+                        <span class="rating-1">4.8</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-main">
+            <div class="company-left">
                 <div class="heading-container">
                     <div class="heading">
                         Trabook
@@ -18,280 +308,82 @@
                         <img src="./images/site_logo.svg" alt="Image Broaked">
                     </div>
                 </div>
-                <nav class="navigates">
-                    <a href="./index.html" class="first-navigate">
-                        Home
-                    </a>
-                    <a href="./about.html" class="navigate">
+                <div class="company-about">
+                    Book your trip in minute, get full
+                    Control for much longer.
+                </div>
+                <div class="social-media">
+                    <div class="fb">
+                        <img src="./images/fb.svg" alt="Error">
+                    </div>
+                    <div class="insta">
+                        <img src="./images/insta.svg" alt="Error">
+                    </div>
+                    <div class="fb">
+                        <img src="./images/twitter.svg" alt="Error">
+                    </div>
+                </div>
+            </div>
+            <div class="company-right">
+                <div>
+                    <div class="company">
+                        Company
+                    </div>
+                    <div class="company-details">
                         About
-                    </a>
-                    <a class="navigate">
-                        Destination
-                    </a>
-                    <a href="./tour.html" class="navigate">
-                        Tour
-                    </a>
-                    <a class="navigate">
-                        Blog
-                    </a>
-                </nav>
-                <div class="signup-login-btn">
-                    <div class="login-btn">
-                        Login
                     </div>
-                    <div class="signup-btn-container">
-                        <button class="signup-btn">
-                            Sign up
-                        </button>
+                    <div class="company-details">
+                        Careers
+                    </div>
+                    <div class="company-details">
+                        Logistic
+                    </div>
+                    <div class="company-details">
+                        Privacy & Policy
+                    </div>
+                </div>
+                <div>
+                    <div class="company">
+                        Contact
+                    </div>
+                    <div class="company-details">
+                        Help/FAQ
+                    </div>
+                    <div class="company-details">
+                        Press
+                    </div>
+                    <div class="company-details">
+                        Affilates
+                    </div>
+                </div>
+                <div>
+                    <div class="company">
+                        More
+                    </div>
+                    <div class="company-details">
+                        Press Centre
+                    </div>
+                    <div class="company-details">
+                        Our Blog
+                    </div>
+                    <div class="company-details">
+                        Low fare tips
                     </div>
                 </div>
             </div>
-        </header>
-        <section>
-            <div class="head">
-                <div class="content-heading">
-                    Exclusive
-                    <span class="content-heading-highlight">deals & discounts</span>
-                </div>
+        </div>
+        <div class="horizontal-line">
+            <hr>
+        </div>
+        <div class="copyright-terms">
+            <div>
+                Copyright, Trabook 2022. All rights reserved.
             </div>
-            <div class="description-c">
-                <div class="description">
-                    Discover our fantastic early booking discounts & start planning your journey.
-                </div>
+            <div>
+                Terms & Conditions
             </div>
-            <div class="card-container">
-                <div class="card">
-                    <div class="card-img-c">
-                        <img class="card-img" src="./images/madrid.png" alt="Error">
-                        <button class="book-btn">Book Now</button>
-                    </div>
-                    <div class="detail-c">
-                        <div class="city-c">
-                            <div class="city">
-                                Madrid
-                            </div>
-                            <div class="rating-c">
-                                <img class="star" src="./images/star.svg" alt="Error">
-                                <span class="rating">4.8</span>
-                            </div>
-                        </div>
-                        <div class="country-price">
-                            <div class="country-container">
-                                <div>
-                                    <img src="./images/location-icon.svg" alt="Error">
-                                </div>
-                                <div class="country">Spain</div>
-                            </div>
-                            <div class="price-c">
-                                <div class="original-price">$950</div>
-                                <div class="discount-price">$850</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img-c">
-                        <img class="card-img" src="./images/firenze.png" alt="Error">
-                        <button class="book-btn">Book Now</button>
-                    </div>
-                    <div class="detail-c">
-                        <div class="city-c">
-                            <div class="city">
-                                Firenze
-                            </div>
-                            <div class="rating-c">
-                                <img class="star" src="./images/star.svg" alt="Error">
-                                <span class="rating">4.5</span>
-                            </div>
-                        </div>
-                        <div class="country-price">
-                            <div class="country-container">
-                                <div>
-                                    <img src="./images/location-icon.svg" alt="Error">
-                                </div>
-                                <div class="country">Italy</div>
-                            </div>
-                            <div class="price-c">
-                                <div class="original-price">$850</div>
-                                <div class="discount-price">$50</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img-c">
-                        <img class="card-img" src="./images/paris.png" alt="Error">
-                        <button class="book-btn">Book Now</button>
-                    </div>
-                    <div class="detail-c">
-                        <div class="city-c">
-                            <div class="city">
-                                Paris
-                            </div>
-                            <div class="rating-c">
-                                <img class="star" src="./images/star.svg" alt="Error">
-                                <span class="rating">4.4</span>
-                            </div>
-                        </div>
-                        <div class="country-price">
-                            <div class="country-container">
-                                <div>
-                                    <img src="./images/location-icon.svg" alt="Error">
-                                </div>
-                                <div class="country">France</div>
-                            </div>
-                            <div class="price-c">
-                                <div class="original-price">$699</div>
-                                <div class="discount-price">$599</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img-c">
-                        <img class="card-img" src="./images/london.png" alt="Error">
-                        <button class="book-btn">Book Now</button>
-                    </div>
-                    <div class="detail-c">
-                        <div class="city-c">
-                            <div class="city">
-                                London
-                            </div>
-                            <div class="rating-c">
-                                <img class="star" src="./images/star.svg" alt="Error">
-                                <span class="rating">4.8</span>
-                            </div>
-                        </div>
-                        <div class="country-price">
-                            <div class="country-container">
-                                <div>
-                                    <img src="./images/location-icon.svg" alt="Error">
-                                </div>
-                                <div class="country">UK</div>
-                            </div>
-                            <div class="price-c">
-                                <div class="original-price">$850</div>
-                                <div class="discount-price">$750</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="arrow-btn-c">
-                <div class="arrow-btns">
-                    <div class="left-a">
-                        <img class="a-icon" src="./images/left-arrow.svg" alt="">
-                    </div>
-                    <div class="right-a">
-                        <img class="a-icon" src="./images/right-arrow.svg" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="head-1">
-                <img class="tree-img" src="./images/tree-img.svg" alt="">
-                <div class="content-heading">
-                    Best
-                    <span class="content-heading-highlight">vacation plan</span>
-                </div>
-            </div>
-            <div class="description-c">
-                <div class="description-1">
-                    Plan your perfect vacation with our travel agency. Choose among hundreds of all-inclusive offers!
-                </div>
-            </div>
-            <div class="arrow-btn-end">
-                <div class="arrow-btns">
-                    <div class="left-a">
-                        <img class="a-icon" src="./images/left-arrow.svg" alt="">
-                    </div>
-                    <div class="right-a">
-                        <img class="a-icon" src="./images/right-arrow.svg" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="visit-card-container">
-                <div class="visit-card">
-                    <div>
-                        <img class="rome-italy-img" src="./images/rome-italy.png" alt="">
-                    </div>
-                    <div class="place-price">
-                        <div class="place">
-                            Rome, Italty
-                        </div>
-                        <div class="price">
-                            $5,42k
-                        </div>
-                    </div>
-                    <div class="days-rating">
-                        <div class="days-c">
-                            <div>
-                                <img src="./images/nav-icon.svg" alt="Error">
-                            </div>
-                            <div class="days-count">
-                                10 Days Trip
-                            </div>
-                        </div>
-                        <div>
-                            <img class="star-1" src="./images/star.svg" alt="Error">
-                            <span class="rating-1">4.8</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="visit-card">
-                    <div>
-                        <img class="rome-italy-img" src="./images/london-uk.png" alt="">
-                    </div>
-                    <div class="place-price">
-                        <div class="place">
-                            London,UK
-                        </div>
-                        <div class="price">
-                            $2,42k
-                        </div>
-                    </div>
-                    <div class="days-rating">
-                        <div class="days-c">
-                            <div>
-                                <img src="./images/nav-icon.svg" alt="Error">
-                            </div>
-                            <div class="days-count">
-                                07 Days Trip
-                            </div>
-                        </div>
-                        <div>
-                            <img class="star-1" src="./images/star.svg" alt="Error">
-                            <span class="rating-1">4.7</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="visit-card">
-                    <div>
-                        <img class="rome-italy-img" src="./images/osaka-japan.png" alt="">
-                    </div>
-                    <div class="place-price">
-                        <div class="place">
-                            Osaka,Japan
-                        </div>
-                        <div class="price">
-                            $5,42k
-                        </div>
-                    </div>
-                    <div class="days-rating">
-                        <div class="days-c">
-                            <div>
-                                <img src="./images/nav-icon.svg" alt="Error">
-                            </div>
-                            <div class="days-count">
-                                10 Days Trip
-                            </div>
-                        </div>
-                        <div>
-                            <img class="star-1" src="./images/star.svg" alt="Error">
-                            <span class="rating-1">4.8</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </body>
+        </div>
+    </footer>
+</body>
+
 </html>
