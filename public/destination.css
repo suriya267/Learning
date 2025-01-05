@@ -1,3 +1,289 @@
 .main {
-    padding: 0px 18rem;
+    padding: 0px 16rem 20px 16rem;
+}
+
+.head {
+    margin-top     : 4rem;
+    display        : flex;
+    justify-content: center;
+}
+
+.head-1 {
+    margin-top     : 6rem;
+    display        : flex;
+    justify-content: center;
+    position       : relative;
+}
+
+.tree-img {
+    position: absolute;
+    right   : 3rem;
+    top     : 0rem;
+}
+
+.content-heading {
+    color      : #222222;
+    font-size  : 35px;
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+}
+
+.content-heading-highlight {
+    color: #FA7436;
+}
+
+.description-c {
+    margin-top     : 10px;
+    display        : flex;
+    justify-content: center;
+}
+
+.description {
+    width      : 45%;
+    text-align : center;
+    font-family: "Poppins", 'serif';
+    font-size  : 15px;
+    color      : #666666;
+}
+
+.description-1 {
+    width      : 53%;
+    text-align : center;
+    font-family: "Poppins", 'serif';
+    font-size  : 15px;
+    color      : #666666;
+}
+
+.card-container {
+    margin-top     : 2.5rem;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 5px;
+    border       : 1.5px solid #f2f1f0;
+}
+
+.detail-c {
+    padding: 10px;
+}
+
+.card-img-c {
+    position: relative;
+}
+
+.card-img {
+    height: 13rem;
+}
+
+.book-btn {
+    display      : none;
+    position     : absolute;
+    top          : 70%;
+    left         : 50%;
+    transform    : translate(-50%, -50%);
+    border       : none;
+    border-radius: 5px;
+    background   : #FA7436;
+    color        : white;
+    font-family  : "Poppins", "serif";
+    cursor       : pointer;
+    padding      : 10px 15px;
+    font-size    : 13px;
+
+}
+
+
+.city-c {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    font-family    : "Poppins", "serif";
+}
+
+.city {
+    font-family: "Poppins", "serif";
+    font-size  : 14px;
+    font-weight: 500;
+    color      : #222222;
+}
+
+.star {
+    height: 13px;
+}
+
+.rating {
+    color    : #666666;
+    font-size: 12px;
+}
+
+.country-price {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    margin-top     : 7px;
+}
+
+.country-container {
+    display    : flex;
+    align-items: center;
+}
+
+.country {
+    margin-left: 5px;
+    color      : #666666;
+    font-size  : 14px;
+    font-family: "Poppins", "serif";
+}
+
+.price-c {
+    display    : flex;
+    align-items: center;
+}
+
+.original-price {
+    color          : #666666;
+    font-size      : 13px;
+    font-family    : "Poppins", "serif";
+    font-weight    : 500;
+    text-decoration: line-through;
+}
+
+.discount-price {
+    border-radius: 5px;
+    padding      : 3px 5px;
+    background   : #FFE7DB;
+    margin-left  : 15px;
+    color        : #FA7436;
+    font-family  : "Poppins", "serif";
+    font-weight  : 500;
+    font-size    : 13px;
+}
+
+.card:hover .card-img {
+    opacity: 0.8;
+}
+
+.card:hover .book-btn {
+    display: block;
+}
+
+.card:hover {
+    box-shadow: rgba(255, 231, 219, 0.7) 0px 7px 29px 0px;
+}
+
+.arrow-btn-c {
+    margin-top     : 1.2rem;
+    display        : flex;
+    justify-content: center;
+}
+
+.arrow-btns {
+    display    : flex;
+    align-items: center;
+    margin-top : 20px;
+}
+
+.left-a {
+    height         : 27px;
+    width          : 27px;
+    border-radius  : 50%;
+    border         : 1.7px solid #999999;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    cursor         : pointer;
+}
+
+.right-a {
+    margin-left     : 17px;
+    height          : 29.4px;
+    width           : 29.4px;
+    border-radius   : 50%;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    background-color: #FA7436;
+    cursor          : pointer;
+
+}
+
+.a-icon {
+    height: 13px;
+}
+
+.arrow-btn-end {
+    display        : flex;
+    justify-content: flex-end;
+}
+
+.visit-card-container {
+    margin-top: 1.2rem;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+.visit-card {
+    border       : 2px solid #f2f2f2;
+    border-radius: 11px;
+}
+
+.place-price {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+    padding        : 13px 15px;
+
+}
+
+.place {
+    color      : #222222;
+    font-family: "Poppins", serif;
+    font-size  : 15px;
+    font-weight: 600;
+
+}
+
+.price {
+    color      : #FA7436;
+    font-family: "Poppins", serif;
+    font-size  : 14px;
+    font-weight: 600;
+}
+
+.rome-italy-img {
+    height: 14rem;
+}
+
+.days-rating {
+    padding        : 0px 15px 15px 15px;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+.days-c {
+    display    : flex;
+    align-items: center;
+}
+
+.days-count {
+    font-family: "Poppins", serif;
+    margin-left: 7px;
+    font-weight: 500;
+    color      : #666666;
+    font-size: 14px;
+}
+
+.star-1 {
+    height: 13px;
+}
+
+.rating-1 {
+    color    : #666666;
+    font-size: 12px;
+    font-family: "Poppins", serif;
 }
