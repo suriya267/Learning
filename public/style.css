@@ -1,0 +1,71 @@
+.nav-bar {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-container {
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #222222;
+}
+
+.logo-container {
+    margin-left: 10px;
+}
+
+.navigates {
+    font-family: "Poppins", serif;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+
+}
+
+.first-navigate{
+    cursor: pointer;
+    text-decoration: none;
+    color: #222222 !important;
+}
+
+.navigate {
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #222222 !important;
+
+}
+
+.signup-login-btn {
+    display: flex;
+    align-items: center;
+}
+
+.login-btn {
+    color: #FD8D3A;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+
+.signup-btn-container {
+    margin-left: 27px;
+}
+
+.signup-btn {
+    background-color: #FA7436;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
